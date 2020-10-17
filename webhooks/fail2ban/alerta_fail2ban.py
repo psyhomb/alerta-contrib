@@ -9,8 +9,8 @@ class Fail2BanWebhook(WebhookBase):
 
         # Default parameters
         environment = 'Production'
-        severity ='security'
-        group ='Fail2Ban'
+        severity = 'security'
+        group = 'Fail2Ban'
         text = ''
         tags = []
         attributes = {}
